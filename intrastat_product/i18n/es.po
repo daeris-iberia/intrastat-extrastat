@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-19 06:52+0000\n"
-"PO-Revision-Date: 2022-08-19 08:55+0200\n"
+"POT-Creation-Date: 2022-10-29 08:35+0000\n"
+"PO-Revision-Date: 2022-10-30 13:22+0100\n"
 "Last-Translator: Víctor Martínez <victor.martinez@tecnativa.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #. module: intrastat_product
 #: model_terms:ir.ui.view,arch_db:intrastat_product.view_move_form
@@ -126,6 +126,7 @@ msgstr "<span>Declaración de producto Intrastat </span>"
 
 #. module: intrastat_product
 #: model:ir.model.constraint,message:intrastat_product.constraint_intrastat_product_declaration_date_uniq
+#: model:ir.model.constraint,message:intrastat_product.constraint_l10n_es_intrastat_product_declaration_date_uniq
 msgid ""
 "A declaration of the same type already exists for this month !\n"
 "You should update the existing declaration or change the revision number of "
@@ -244,7 +245,7 @@ msgstr "Archivado"
 #: model:ir.model.fields,field_description:intrastat_product.field_res_config_settings__intrastat_arrivals
 #: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_declaration_view_search
 msgid "Arrivals"
-msgstr "Llegadas"
+msgstr "Recepciones"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration__message_attachment_count
@@ -469,13 +470,13 @@ msgstr "Líneas de declaración"
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
 msgid "Declaration for Arrivals"
-msgstr "Declaración de Llegadas"
+msgstr "Declaración de recepciones"
 
 #. module: intrastat_product
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
 msgid "Declaration for Dispatches"
-msgstr "Declaración de Despachos"
+msgstr "Declaración de Envíos"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_res_company__intrastat_region_id
@@ -536,14 +537,14 @@ msgstr "País de Destino"
 #: model:ir.model.fields,help:intrastat_product.field_account_move__src_dest_country_id
 #: model:ir.model.fields,help:intrastat_product.field_account_payment__src_dest_country_id
 msgid "Destination country for dispatches. Origin country for arrivals."
-msgstr "País de destino para despachos. País de orígen para llegadas."
+msgstr "País de destino para envíos. País de origen para recepciones."
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_res_company__intrastat_dispatches
 #: model:ir.model.fields,field_description:intrastat_product.field_res_config_settings__intrastat_dispatches
 #: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_declaration_view_search
 msgid "Dispatches"
-msgstr "Despachos"
+msgstr "Envios"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_account_move_intrastat_line__display_name
@@ -1055,6 +1056,11 @@ msgid "Net weight in Kg"
 msgstr "Peso neto en Kg"
 
 #. module: intrastat_product
+#: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "Siguiente actividad de evento de calendario"
+
+#. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration__activity_date_deadline
 msgid "Next Activity Deadline"
 msgstr "Fecha límite de la siguiente actividad"
@@ -1196,7 +1202,7 @@ msgid ""
 "Origin region for dispatches, destination region for arrivals. This field is "
 "used for the Intrastat Declaration."
 msgstr ""
-"Región de orígen para despachos, región de destino para llegadas. Este campo "
+"Región de origen para envíos, región de destino para recepciones. Este campo "
 "se usa en la Declaración Intrastat."
 
 #. module: intrastat_product

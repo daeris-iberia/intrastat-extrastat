@@ -11,13 +11,13 @@
         <field name="inherit_id" ref="account.product_template_form_view" />
         <field name="arch" type="xml">
             <group name="properties" position="after">
-                <group string="Intrastat" name="intrastat">
+                <group string="Intrastat" name="intrastat" groups="base.group_no_one">
                     <!-- If you need this field, inherit this view in a
                          localisation module to set invisible="0" -->
                     <field
                         name="is_accessory_cost"
                         attrs="{'invisible': [('type', '!=', 'service')]}"
-                        invisible="1"
+                        invisible="0"
                     />
                 </group>
             </group>
