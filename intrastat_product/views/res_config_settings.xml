@@ -74,13 +74,13 @@
                         />
                             </div>
                         </div>
-                        <div class="o_setting_left_pane">
+                        <div class="o_setting_left_pane" groups="base.group_no_one">
                             <field
                         name="intrastat_accessory_costs"
                         attrs="{'invisible': [('country_code', 'in', ['BE'])]}"
                     />
                         </div>
-                        <div class="o_setting_right_pane">
+                        <div class="o_setting_right_pane" groups="base.group_no_one">
                             <div class="row">
                                 <label
                             for="intrastat_accessory_costs"
