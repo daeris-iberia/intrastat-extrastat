@@ -55,7 +55,7 @@ class IntrastatProductDeclaration(models.Model):
         store=True,
     )
     state = fields.Selection(
-        selection=[("draft", "Draft"), ("done", "Done")],
+        selection=[("draft", "Borrador"), ("done", "Realizado")],
         readonly=True,
         tracking=True,
         copy=False,

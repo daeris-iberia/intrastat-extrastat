@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-29 08:35+0000\n"
-"PO-Revision-Date: 2022-10-30 13:22+0100\n"
+"PO-Revision-Date: 2022-11-01 05:50+0100\n"
 "Last-Translator: Víctor Martínez <victor.martinez@tecnativa.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -267,7 +267,8 @@ msgstr "Antes de volver a borrador, debe eliminar la exportación XML."
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
 msgid "Cannot delete the declaration %s because it is in Done state."
-msgstr "No se puede eliminar la declaración %s porque está en estado Hecho."
+msgstr ""
+"No se puede eliminar la declaración %s porque está en estado Realizado."
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_region__code
@@ -476,43 +477,43 @@ msgstr "Declaración de recepciones"
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
 msgid "Declaration for Dispatches"
-msgstr "Declaración de Envíos"
+msgstr "Declaración de envíos"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_res_company__intrastat_region_id
 #: model:ir.model.fields,field_description:intrastat_product.field_res_config_settings__intrastat_region_id
 msgid "Default Intrastat Region"
-msgstr "Región Intrastat por defecto"
+msgstr "Región Intrastat predeterminada"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_res_company__intrastat_transaction_out_invoice
 #: model:ir.model.fields,field_description:intrastat_product.field_res_config_settings__intrastat_transaction_out_invoice
 msgid "Default Intrastat Transaction For Customer Invoice"
-msgstr "Transacción Intrastat por defecto para la factura del cliente"
+msgstr "Transacción Intrastat predeterminada para facturas de cliente"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_res_company__intrastat_transaction_in_invoice
 #: model:ir.model.fields,field_description:intrastat_product.field_res_config_settings__intrastat_transaction_in_invoice
 msgid "Default Intrastat Transaction For Supplier Invoices"
-msgstr "Transacción Intrastat por defecto para Facturas de Proveedores"
+msgstr "Transacción Intrastat por defecto para facturas de proveedor"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_res_company__intrastat_transaction_in_refund
 #: model:ir.model.fields,field_description:intrastat_product.field_res_config_settings__intrastat_transaction_in_refund
 msgid "Default Intrastat Transaction For Supplier Refunds"
-msgstr "Transacción Intrastat por defecto para Abonos de Proveedor"
+msgstr "Transacción Intrastat predeterminada para abonos de proveedor"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_res_company__intrastat_transaction_out_refund
 #: model:ir.model.fields,field_description:intrastat_product.field_res_config_settings__intrastat_transaction_out_refund
 msgid "Default Intrastat Transaction for Customer Refunds"
-msgstr "Transacción Intrastat por defecto para Abonos a Clientes"
+msgstr "Transacción Intrastat predeterminada para abonos de clientes"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_res_company__intrastat_transport_id
 #: model:ir.model.fields,field_description:intrastat_product.field_res_config_settings__intrastat_transport_id
 msgid "Default Transport Mode"
-msgstr "Modo Transporte por defecto"
+msgstr "Modo de Transporte predeterminado"
 
 #. module: intrastat_product
 #: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_declaration_view_form
@@ -530,7 +531,7 @@ msgstr "Descripción"
 #. module: intrastat_product
 #: model_terms:ir.ui.view,arch_db:intrastat_product.view_move_form
 msgid "Destination Country"
-msgstr "País de Destino"
+msgstr "País de destino / orígen"
 
 #. module: intrastat_product
 #: model:ir.model.fields,help:intrastat_product.field_account_bank_statement_line__src_dest_country_id
@@ -1276,7 +1277,7 @@ msgstr "Producto"
 #: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_declaration_line_view_tree
 #, python-format
 msgid "Product C/O"
-msgstr "Product C/O"
+msgstr "Cód. orígen producto"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_account_move_intrastat_line__quantity

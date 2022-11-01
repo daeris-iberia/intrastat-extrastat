@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-31 05:06+0000\n"
-"PO-Revision-Date: 2022-10-31 06:08+0100\n"
+"PO-Revision-Date: 2022-11-01 05:32+0100\n"
 "Last-Translator: Mat-moran <amadeo.moran@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -61,21 +61,19 @@ msgstr "Compañía"
 #. module: product_harmonized_system
 #: model:ir.model.fields,field_description:product_harmonized_system.field_product_product__origin_state_id
 #: model:ir.model.fields,field_description:product_harmonized_system.field_product_template__origin_state_id
-#, fuzzy
 msgid "Country State of Origin"
-msgstr "País Estado de origen"
+msgstr "Provincia de origen"
 
 #. module: product_harmonized_system
 #: model:ir.model.fields,help:product_harmonized_system.field_product_product__origin_state_id
 #: model:ir.model.fields,help:product_harmonized_system.field_product_template__origin_state_id
-#, fuzzy
 msgid ""
 "Country State of origin of the product.\n"
 "This field is used for the Intrastat declaration, selecting one of the "
 "Northern Ireland counties will set the code 'XI' for products from the "
 "United Kingdom whereas code 'XU' will be used for the other UK counties."
 msgstr ""
-"País Estado de origen del producto.\n"
+"Provincia de origen del producto.\n"
 "Este campo se utiliza para la declaración Intrastat, seleccionando uno de "
 "los condados de Irlanda del Norte se establecerá el código «XI» para los "
 "productos del Reino Unido, mientras que el código «XU» se utilizará para los "
